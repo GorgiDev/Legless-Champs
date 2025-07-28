@@ -18,7 +18,7 @@
 
 | Action    | Key     |
 |----------|---------|
-| Move     | WASD    |
+| Move (Can only move with pistol)     | AS |
 | Shoot    | Left Click |
 
 ---

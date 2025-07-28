@@ -25,8 +25,9 @@
 
 ## ⚠️ License
 
-This project is released **without a license**.
+This project is **not open source**.
 
-You are **not permitted** to use, copy, distribute, or modify the code without explicit permission from the author.
+The source code is proprietary. You may **view it** and **contribute via pull requests**, but you are **not permitted to use, copy, modify, or distribute it** without written permission.
 
-Contributions are welcome via pull requests.
+See [LICENSE](./LICENSE) for details.
+

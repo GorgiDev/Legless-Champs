@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Turret
+  - DroneScrambler
+  - Router
+  - BreakableBox
+  - ExplosiveBarrel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - Player
+  - Enemy
+  - BreakableBoxPiece
+  - ExplosiveBoxPiece
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2821821435
+    locked: 0
+  - name: Foreground
+    uniqueID: 4046877147
+    locked: 0
+  - name: Props
+    uniqueID: 276492865
+    locked: 0
+  - name: Enemies
+    uniqueID: 2979044377
+    locked: 0
+  - name: Player
+    uniqueID: 2206137351
+    locked: 0
+  - name: Gun
+    uniqueID: 622035353
+    locked: 0
+  - name: Bullets
+    uniqueID: 446917149
+    locked: 0
+  m_RenderingLayers:
+  - Default

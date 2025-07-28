@@ -20,3 +20,13 @@
 |----------|---------|
 | Move     | WASD    |
 | Shoot    | Left Click |
+
+---
+
+## ⚠️ License
+
+This project is released **without a license**.
+
+You are **not permitted** to use, copy, distribute, or modify the code without explicit permission from the author.
+
+Contributions are welcome via pull requests.

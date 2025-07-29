@@ -117,7 +117,7 @@ public class Gun : NetworkIdentity
 
     private void Update()
     {
-        if (type == GunType.rpg)
+        if (type != GunType.pistol)
             player.canMove = false;
 
         Vector2 mousePos = Mouse.current.position.ReadValue();
@@ -168,7 +168,7 @@ public class Gun : NetworkIdentity
                 ShootSniper();
                 break;
             default:
-                Debug.LogError("Please select a gun type in the Inspector");
+                Debug.LogError("Please select a gun type in the Inspector!");
                 break;
         }
     }

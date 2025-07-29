@@ -19,6 +19,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Sprite reallyLowSprite;
     [SerializeField] private Sprite criticalSprite;
 
+    [Header("Timer")] 
+    [SerializeField] private TMPro.TextMeshProUGUI timerText;
+    
+    private float elapsedTime = 0f;
+    private bool isTimerRunning = false;
+
     private static GameManager instance;
 
     private void Awake()
@@ -29,6 +35,17 @@ public class GameManager : MonoBehaviour
             return;
         }
         instance = this;
+        
+        StartTimer();
+    }
+
+    private void Update()
+    {
+        if (isTimerRunning)
+        {
+            elapsedTime += Time.deltaTime;
+            UpdateTimerUI();
+        }
     }
 
     public static void UpdatePlayerHealthUI(float currentHealth, float maxHealth)
@@ -90,5 +107,43 @@ public class GameManager : MonoBehaviour
 
         if (instance.bulletAnim != null)
             instance.bulletAnim.runtimeAnimatorController = anim;
+    }
+
+    private void UpdateTimerUI()
+    {
+        int minutes = Mathf.FloorToInt(elapsedTime / 60f);
+        int seconds = Mathf.FloorToInt(elapsedTime % 60f);
+        int miliseconds = Mathf.FloorToInt((elapsedTime * 1000f) % 1000f);
+
+        if (timerText != null)
+        {
+            timerText.text = string.Format("{0:00}:{1:00}:{2:000}", minutes, seconds, miliseconds);
+        }
+    }
+
+    public static void StartTimer()
+    {
+        if (instance == null)
+            return;
+
+        instance.isTimerRunning = true;
+        instance.elapsedTime = 0f;
+    }
+
+    public static void StopTimer()
+    {
+        if (instance == null)
+            return;
+        
+        instance.isTimerRunning = false;
+    }
+    
+    public static void ResetTimer()
+    {
+        if (instance == null) 
+            return;
+        
+        instance.elapsedTime = 0f;
+        instance.UpdateTimerUI();
     }
 }

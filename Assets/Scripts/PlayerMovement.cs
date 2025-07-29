@@ -78,7 +78,8 @@ public class PlayerMovement : NetworkIdentity
     {
         if (maxHealth > 0 || canMove)
         {
-            HandleMovement();
+            if (canMove)
+                HandleMovement();
             ChangeState();
         }
     }
@@ -237,6 +238,8 @@ public class PlayerMovement : NetworkIdentity
     {
         Vector3 deathPos = transform.position;
         Quaternion deathRot = transform.rotation;
+        
+        GameManager.StopTimer();
 
         Destroy(gameObject);
         Instantiate(deathEffectPref, deathPos, deathRot);

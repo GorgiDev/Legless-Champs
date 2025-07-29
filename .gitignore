@@ -1,3 +1,7 @@
+#========== General ================
+ignore.conf
+GameInstaller.iss
+
 # ========== Unity Generated Folders ==========
 [Ll]ibrary/
 [Tt]emp/
@@ -12,12 +16,15 @@
 /Assets/**/ShaderIncludeCache/
 
 # ========== Visual Studio / VS Code ==========
+.vs
+.vsconfig
 .vscode/
 *.csproj
 *.sln
 *.suo
 *.user
 *.userprefs
+UpgradeLog.htm
 
 # ========== Rider ==========
 .idea/

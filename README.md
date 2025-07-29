@@ -1,4 +1,4 @@
-# 🦿 Legless Champs
+# 🤖 Legless Champs
 
 > A fast-paced 2D multiplayer shooter where players control chaotic legless robots with powerful weapons and zero patience for gravity.
 
@@ -10,16 +10,6 @@
 - 🔫 Modular gun system (sniper, RPG, shotgun, etc.)
 - 🧱 Destructible environments (breakable boxes, explosive barrels)
 - 🔌 Multiplayer via PurrNet with auto matchmaking
-- 💡 URP 2D lighting with custom shaders and outlines
-
----
-
-## 🕹️ Controls
-
-| Action    | Key     |
-|----------|---------|
-| Move (Can only move with pistol)     | AS |
-| Shoot    | Left Click |
 
 ---
 

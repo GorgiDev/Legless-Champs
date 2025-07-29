@@ -2,6 +2,8 @@
 
 > A fast-paced 2D multiplayer shooter where players control chaotic legless robots with powerful weapons and zero patience for gravity.
 
+![Banner-Image](Images/Banner.png)
+
 ---
 
 ## 🎮 Features (Most are COMING SOON)

@@ -17,4 +17,4 @@
 
 ## ⚠️ IMPORTANT
 
-The project is currently **under development** and no beta is yet available. A small demo will come out **soon**. Currently you can run the game but **most of the features aren't in it yet.**
+The project is currently **under development** and no beta is yet available. A small demo will come out **soon**.

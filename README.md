@@ -7,7 +7,6 @@
 
 ![](https://img.shields.io/github/last-commit/GorgiDev/Legless-Champs?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
 ![](https://img.shields.io/github/stars/GorgiDev/Legless-Champs?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/repo-size/GorgiDev/Legless-Champs?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=26230e)
 
 </div>
 
@@ -35,3 +34,6 @@
   <h2>• SCREENSHOTS •</h2>
   <h3> **COMING SOON!**</h3>
 </div>
+
+___
+**⚠️IMPORTANT**: The are currently no releases for the game, I will release a demo SOON.

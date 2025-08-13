@@ -1,20 +1,37 @@
-# 🤖 Legless Champs
+<div align="center">
+    <h1>【 🤖Legless Champs 】</h1>
+    <h3></h3>
+</div>
 
-> A fast-paced 2D multiplayer shooter where players control chaotic legless robots with powerful weapons and zero patience for gravity.
+<div align="center"> 
 
-![Banner-Image](Images/Banner.png)
+![](https://img.shields.io/github/last-commit/GorgiDev/Legless-Champs?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/stars/GorgiDev/Legless-Champs?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/repo-size/GorgiDev/Legless-Champs?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=26230e)
 
----
+</div>
 
-## 🎮 Features (Most are COMING SOON)
+<div align="center">
+    <h2>• OVERVIEW •</h2>
+    <h3></h3>
+</div>
 
-- ⚡ Smooth movement system
-- 🔫 Modular gun system (sniper, RPG, shotgun, etc.)
-- 🧱 Destructible environments (breakable boxes, explosive barrels)
-- 🔌 Multiplayer via PurrNet with auto matchmaking
+ <details> 
+  <summary>Game features</summary>
+     
+  - **Overview**: This game is a speedrunner-friendly 2D platformer where you can only move using your gun.
+  - **Fast-Paced**: The gane offers fast-paced movement along with engaging level design.
+  - **PLenty of Enemies**: There are numerous kinds of enemies that you will have to deal with in order to complete a level.
+  - **Multiplayer**: Multiplayer is a crucial part of this game having a smash-style gameplay with 2-4 players. You can customize your character and select from a variaty of different weapons all with different stats and skins and complete objectives in order to gain progression and style-points.
+</details>
+<details> 
+  <summary>Installation</summary>
 
----
+   - Download from the itch.io page(not currently available)
+     
+</details>
 
-## ⚠️ IMPORTANT
-
-The project is currently **under development** and no beta is yet available. A small demo will come out **soon**.
+<div align="center">
+  <h2>• SCREENSHOTS •</h2>
+  <h3> **COMING SOON!**</h3>
+</div>
